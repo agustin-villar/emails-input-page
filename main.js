@@ -32,5 +32,5 @@ addEmailButton.addEventListener('click', () => {
 
 const getEmailsCountButton = document.querySelector('#emails-count');
 getEmailsCountButton.addEventListener('click', () => {
-    alert(`${emailsInput.getValidEmailsCount()} valid email(s)`);
+    alert(`There are ${emailsInput.getValidEmailsCount()} valid email(s)`);
 });
